@@ -6,10 +6,10 @@ Other interfaces are aligned to the concepts of RDF/JS and EcmaScript standards.
 
 ## RDF-Ext
 
-The combined usage of multiple `@rdfjs-base` can be complicated.
+The combined usage of multiple `@rdfjs-base` packages can be complicated.
 To simplify the usage, [RDF-Ext](https://rdf-ext.org/) does all the factory handling for you.
-It's is recommended for most people.
-The usage of individual `@rdfjs-base` packages could be of interest once you think about bundle size.
+It is recommended for most people.
+Using individual `@rdfjs-base` packages could be of interest once you think about bundle size.
 Before you reach that point, you should just stay with [RDF-Ext](https://rdf-ext.org/).
 
 ## ESM vs. CommonJS
@@ -19,3 +19,8 @@ They are intentional ESM only, so they don't require a build system and keep the
 If you need a [CommonJS](https://nodejs.org/docs/latest/api/modules.html) version of a package, you should check for older major versions.
 Don't worry about a package being outdated.
 New features aren't backported, but reported bugs will be fixed.
+
+## Contributing
+
+Contributions are very welcome.
+Please see the [contributing guidelines](https://github.com/bergos/open-source-software/blob/master/CONTRIBUTING.md) for more details.  
